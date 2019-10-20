@@ -30,4 +30,9 @@ func SearchDemo() {
 	array_4 := []int{1, 3, 8, 8, 8, 8, 11, 18}
 	index_4 := Binary_search_be(array_4, 8)
 	fmt.Println(index_4)
+
+	//查找最后一个小于等于目标元素的索引
+	array_5 := []int{3, 4, 5, 6, 8, 9, 10}
+	index_5 := Binary_search_se(array_5, 7)
+	fmt.Println(index_5)
 }

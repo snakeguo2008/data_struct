@@ -112,4 +112,5 @@ func Binary_search_se(array []int, x int) int {
 			}
 		}
 	}
+	return -1
 }
